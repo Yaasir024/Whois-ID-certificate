@@ -94,7 +94,7 @@
       </div>
     </aside>
     <aside
-      class="sec-right w-full pt-[42px] px-[20px] md:px-[40px] pb-[75px] mt-14 2xl:mt-0"
+      class="sec-right w-full pt-[42px] px-[20px] md:px-[40px] pb-[75px] mt-14 2xl:mt-0 border-t-[6px] border-id-green-2 rounded-t-[12px] overflow-hidden"
     >
       <div class="flex lg:items-center lg:justify-between flex-col lg:flex-row">
         <div class="flex items-center">
