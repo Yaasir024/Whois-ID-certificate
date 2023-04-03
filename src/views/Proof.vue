@@ -4,7 +4,7 @@
       <main class="bg-white pt-[54px] pb-[36px] z-30 w-full">
         <div class="flex flex-col items-center justify-center">
           <h1
-            class="text-[36px] leading-[44px] font-bold text-id-green-2 mt-[62px]"
+            class="text-[28px] sm:text-[36px] leading-[44px] font-bold text-id-green-2 mt-[62px]"
           >
             PROOF OF ADDRESS
           </h1>
@@ -16,15 +16,16 @@
           >
             Chinedu Aruna
           </h1>
+          <div class="w-[200px] sm:w-[340px] md:w-[480px] border border-[#0F595C] mt-[-28px]"></div>
         </div>
         <div
-          class="flex flex-col xl:flex-row px-[25px] lg:px-[40px] xl:px-[60px] 2xl:pl-[90px] 2xl:pr-[210px]"
+          class="flex flex-col xl:flex-row px-[25px] lg:px-[40px] xl:px-[60px] 2xl:pl-[90px] 2xl:pr-[210px] mt-[20px]"
         >
           <div class="w-full xl:pr-[21px]">
             <img
               src="@/assets/images/chinedu.png"
               alt=""
-              class="h-[136px] w-[136px] mb-[17px]"
+              class="h-[80px] sm:h-[136px] w-[80px] sm:w-[136px] mb-[17px]"
             />
             <div class="flex mb-[60px]">
               <span
