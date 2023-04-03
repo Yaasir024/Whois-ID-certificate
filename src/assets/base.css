@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+@font-face {
+  font-family: "Euclid Circular";
+  src: url("./fonts/Euclid-Circular-A-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular";
+  src: url("./fonts/Euclid-Circular-A-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular";
+  src: url("./fonts/Euclid-Circular-A-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular";
+  src: url("./fonts/Euclid-Circular-A-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: #111727;
+  background: #f5f5f5;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Euclid Circular", sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d0d5dd;
+  outline: 1px solid #d0d5dd;
+}
+* {
+  scrollbar-color: #d0d5dd;
+  scrollbar-width: 8px;
+}
