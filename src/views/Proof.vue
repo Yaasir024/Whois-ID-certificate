@@ -3,6 +3,11 @@
     <div class="relative max-w-[1440px] mx-auto sm:mt-[100px]">
       <main class="bg-white pt-[54px] pb-[36px] z-30 w-full">
         <div class="flex flex-col items-center justify-center">
+          <img
+              src="@/assets/images/main.svg"
+              alt=""
+              class="mb-[35px]"
+            />
           <h1
             class="text-[28px] sm:text-[36px] leading-[44px] font-bold text-id-green-2 mt-[62px]"
           >
@@ -230,7 +235,7 @@
             >
           </div>
           <img
-            src="@/assets/images/data-pro.svg"
+            src="@/assets/images/data-pro.png"
             alt=""
             class="h-[100px] xl:h-[197px] w-[100px] xl:w-[197px] mt-[40px] xl:mt-0"
           />
